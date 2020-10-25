@@ -1,0 +1,6 @@
+draw_set_alpha(size)
+draw_set_valign(fa_center)
+draw_set_halign(fa_center)
+draw_set_font(font0)
+draw_set_color(color)
+draw_text_transformed(x,y,barva,1,1,image_angle)

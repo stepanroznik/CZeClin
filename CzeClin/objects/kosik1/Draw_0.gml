@@ -1,0 +1,5 @@
+draw_set_alpha(size)
+draw_set_color(c_white)
+draw_rectangle(x-vel*1.15,y-vel*1.8,x+vel*1.15,y+vel*1.8,0)
+draw_set_color(c_black)
+draw_rectangle(x-vel*1.15/1.2,y-vel*1.8/1.1,x+vel*1.15/1.2,y+vel*1.8/1.1,0)
