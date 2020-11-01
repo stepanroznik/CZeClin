@@ -3,17 +3,17 @@ draw_set_halign(fa_center)
 draw_set_font(font0)
 if rezim=0{
 draw_text_ext_transformed_color(540,1600+yyy,
-"Sort dominoes by their value, LOWEST to HIGHEST.",
+"Seřaďte domina podle jejich hodnoty, OD NEMENŠÍHO PO NEJVĚTŠÍ.",
 72,720,1.2,1.2,0,c_white,c_white,c_white,c_white,size)}
 if rezim=1{
 draw_text_ext_transformed_color(540,1600+yyy,
-"Sort dominoes by their value, HIGHEST to LOWEST.",
+"Seřaďte domina podle jejich hodnoty, OD NEJVĚTŠÍHO PO NEJMENŠÍ.",
 72,720,1.2,1.2,0,c_white,c_white,c_white,c_white,size)}
 if rezim=2{
 draw_text_ext_transformed_color(540,1600+yyy,
-"Sort letters in alphabetical order, LOWEST to HIGHEST.",
+"Seřaďte písmena podle abecedy, od A do Z.",
 72,720,1.2,1.2,0,c_white,c_white,c_white,c_white,size)}
 if rezim=3{
 draw_text_ext_transformed_color(540,1600+yyy,
-"Sort letters in alphabetical order, HIGHEST to LOWEST.",
+"Seřaďte písmena obráceně, od Z po A.",
 72,720,1.2,1.2,0,c_white,c_white,c_white,c_white,size)}

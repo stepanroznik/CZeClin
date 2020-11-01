@@ -1,6 +1,6 @@
 draw_set_valign(fa_center)
 draw_set_halign(fa_center)
 draw_set_font(font0)
-draw_text_transformed_color(540,800,"Perfect!",(1/size)*2,(1/size)*2,0,c_white,c_white,c_white,c_white,size-size2)
+draw_text_transformed_color(540,800,"Perfektní!",(1/size)*2,(1/size)*2,0,c_white,c_white,c_white,c_white,size-size2)
 draw_text_transformed_color(540,1200,skore,(1.2/size)*2,(1.2/size)*2,0,c_white,c_white,c_white,c_white,size-size2)
 draw_set_color(c_white)

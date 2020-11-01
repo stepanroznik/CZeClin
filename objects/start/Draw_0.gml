@@ -19,7 +19,7 @@ draw_set_valign(fa_center)
 draw_set_halign(fa_center)
 draw_set_color(c_white)
 draw_set_font(font0)
-draw_text_transformed_color(540,800,"Tap to start",size,size,0,c_white,c_white,c_white,c_white,size2)
+draw_text_ext_transformed_color(540,900,"Kliknutím na obrazovku spustíte sérii kognitivních her",80,500,size,size,0,c_white,c_white,c_white,c_white,size2)
 if hs>0{
-draw_text_transformed_color(540,1000,"Highscore: "+string(hs),size/1.5,size/1.5,0,c_white,c_white,c_white,c_white,size2)
+draw_text_transformed_color(540,1800,"Nejvyšší skóre: "+string(hs),size/1.5,size/1.5,0,c_white,c_white,c_white,c_white,size2)
 }
